@@ -1,0 +1,39 @@
+{
+  "lang":"it",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.3,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"512241e12",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "entity_ruler":[
+      "COMM",
+      "LOC",
+      "OPERA",
+      "STR",
+      "T.INC",
+      "T.INT",
+      "TL"
+    ]
+  },
+  "pipeline":[
+    "entity_ruler"
+  ],
+  "components":[
+    "entity_ruler"
+  ],
+  "disabled":[
+
+  ]
+}
